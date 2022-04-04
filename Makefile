@@ -6,7 +6,7 @@
 #    By: fmarin-p <fmarin-p@student.42madrid>       +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/04/01 14:15:33 by fmarin-p          #+#    #+#              #
-#    Updated: 2022/04/01 17:38:42 by fmarin-p         ###   ########.fr        #
+#    Updated: 2022/04/04 18:47:05 by fmarin-p         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -32,7 +32,7 @@ $(NAME): $(SRCOBJ)
 	@cp libft/libft.a .
 	@mv libft.a $(NAME)
 	@ar rcs $(NAME) $(SRCOBJ)
-	@echo "ft_printf compilado."
+	@echo "Compliación terminada."
 
 $(OBJDIR)%.o: $(SRCDIR)%.c	
 	@mkdir -p obj
