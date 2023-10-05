@@ -1,5 +1,9 @@
 # ft_printf - Recoding printf() Function - ⭐Grade 100/100
 
+#### Grade rating
+- ✅ = Okay project
+- ⭐ = Outstanding project
+
 ## Project Overview
 
 The goal of this project is pretty straightforward: recoding `printf()`. This project gave me the opportunity to learn about using a variable number of arguments. The prototype of `ft_printf()` is as follows:
